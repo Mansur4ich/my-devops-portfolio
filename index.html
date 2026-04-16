@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mansur | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="card header">
+    <h1>Mansur Zhussip</h1>
+    <p class="title">Future DevOps Engineer</p>
+  </div>
+
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      I am a Information Systems student at SDU University.
+      I am interested in backend systems, automation, and modern technologies.
+      I enjoy learning how systems work and how to make them more efficient.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>Git & GitHub</li>
+      <li>GitHub Actions</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Education</h2>
+    <p>Suleyman Demirel University (SDU)</p>
+    <p>Bachelor in Information Systems</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: 250103173@sdu.edu.kz</p>
+    <p>GitHub: github.com/yourusername</p>
+  </div>
+
+  <div class="card footer">
+    <p id="deploy"></p>
+  </div>
+
+</div>
+
+<script>
+const date = new Date();
+document.getElementById("deploy").innerText =
+  "Last Deployment: " + date.toLocaleDateString() + " | " + date.toLocaleTimeString();
+</script>
+
+</body>
+</html>
